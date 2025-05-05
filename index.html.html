@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador PJe - Login</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <header>
+            <img src="./assets/logo-pje.png" alt="Logo PJe Simulator" class="logo">
+            <h1>Simulador Acadêmico PJe</h1>
+        </header>
+        
+        <main>
+            <form id="loginForm" class="login-form">
+                <h2>Acesso ao Sistema</h2>
+                <div class="form-group">
+                    <label for="username">Usuário:</label>
+                    <input type="text" id="username" placeholder="Digite seu CPF" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" placeholder="Digite sua senha" required>
+                </div>
+                <button type="submit" class="btn-login">Entrar</button>
+                <p class="signup-text">Primeiro acesso? <a href="#" id="signupLink">Cadastre-se</a></p>
+            </form>
+        </main>
+
+        <footer>
+            <p>Simulador para fins acadêmicos - © 2023</p>
+        </footer>
+    </div>
+
+    <!-- Scripts com caminhos relativos corrigidos -->
+    <script src="./script.js"></script>
+</body>
+</html>

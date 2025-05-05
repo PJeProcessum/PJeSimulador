@@ -1,0 +1,30 @@
+/* Reset e variáveis */
+:root {
+    --primary-blue: #2c3e50;
+    --secondary-blue: #3498db;
+    --light-gray: #ecf0f1;
+    --dark-gray: #7f8c8d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f5f7fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container {
+    max-width: 100%;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+/* Estilos do formulário continuam... */
+/* (Manter o restante do CSS que já foi fornecido anteriormente) */
